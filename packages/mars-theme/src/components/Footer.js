@@ -1,16 +1,19 @@
 import React from 'react';
 import { styled } from 'frontity';
+import Logo from "../statics/img/logo-revontuli-2020-agence-digital-blog.svg";
+
  
 const Footer = () => {
     return (
         <FooterSection>
             <div className="menuSection">
                 <div className="sectionInfo footer--section-info">
-                    <h2>Revontuli - Agence Marketing Digital</h2>
-                    <p>Revontuli est une agence de marketing digital. Notre approche est essentiellement portée sur l'expérience utilisateur. Après des années à accompagner des startups et des PME pour des groupes comme Google ou encore NRJ, nous avons décidé de créer notre agence. Notre objectif, redonner du sens à vos actions digitale. Profitez des opportunités du numérique dès maintenant !</p>
+                    <img src={Logo} alt="" />
+                    <p>Blog de conseils et d’accompagnement sur les sujets digitaux. Rédigé avec ❤️ par Tristan Tornatore, ex startup coordinateur pour Google for Startups et fondateur de votre agence d’expérience digital : Revontuli.</p>
                 </div>
                 <div className="SectionPlan footer--section">
-                    <h2>Catégories d'articles</h2>
+                    <h2>Thématiques</h2>
+                    <hr />
                     <ul>
                         <li>Data - Analyse de données</li>
                         <li>Référencement Naturel - SEO</li>
@@ -22,6 +25,7 @@ const Footer = () => {
                 </div>
                 <div className="SectionLegale footer--section">
                     <h2>Infos Pratiques</h2>
+                    <hr />
                     <ul>
                         <li>Site internet de l'agence</li>
                         <li>Nos prestations</li>
@@ -43,7 +47,8 @@ export default Footer;
 
 const FooterSection = styled.footer`
     padding: 40px;
-    background-color: #2a343c;
+    text-align: center;
+    background-color: #f4f4f4;
     ul, li {
         list-style: none;
         margin: 0;
@@ -51,16 +56,22 @@ const FooterSection = styled.footer`
         font-size: 0.9em;
 
     }
+    img {
+        width: 40%;
+    }
+    p {
+        font-size: 1em;
+    }
     li {
         margin: 15px 0; 
     }
     h2, p, li {
-        color: #fff!important;
         line-height: 1.6em;
+        margin-top: 40px;
     }
     h2 {
         padding-bottom: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .copyRight {
         font-size: 12px;
@@ -69,23 +80,6 @@ const FooterSection = styled.footer`
         font-weight: 900;
         span {
             margin-left: 15px;
-        }
-    }
-    @media screen and (min-width: 950px) {
-        .menuSection {
-            width: 80%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            .footer--section-info {
-                width: 50%;
-                padding: 15px;
-                margin-right: 50px;
-            }
-            .footer--section {
-                width: 20%;
-                padding: 15px 30px;
-            }
         }
     }
 `;

@@ -42,11 +42,6 @@ const Item = ({ state, item }) => {
           </PublishDate>
         </div>
 
-        {/* If the post has an excerpt (short summary text), we render it */}
-        {item.excerpt && (
-          <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
-        )}
-
       </ArticleContent>
 
 
@@ -84,6 +79,7 @@ const Excerpt = styled.div`
 
 const ImagePost = styled.div`
   img {
+    width: 30%;
     border-radius:10px;
   }
 `;

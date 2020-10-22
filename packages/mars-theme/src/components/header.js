@@ -4,7 +4,7 @@ import Link from "./link";
 import Nav from "./nav";
 import Image from "@frontity/components/image"
 import MobileMenu from "./menu";
-import Logo from "../statics/img/logo-revontuli-developpement-web-seo-sea-marketing-digitale.svg"
+import Logo from "../statics/img/logo-revontuli-2020-agence-digital-blog.svg"
 
 const Header = ({ state }) => {
   return (
@@ -32,6 +32,6 @@ const Container = styled.div`
 const StyledLink = styled(Link)`
   text-decoration: none;
   img {
-    width: 50%;
+    width: 40%;
   }
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import { connect, styled, decode } from "frontity";
 import Item from "./list-item";
-import Pagination from "./pagination";
+
 
 const List = ({ state }) => {
   // Get the data of the current list.
@@ -9,6 +9,7 @@ const List = ({ state }) => {
 
   return (
     <Container>
+      <h2>Articles récents : </h2>
       {/* If the list is a taxonomy, we render a title. */}
       {data.isTaxonomy && (
         <Header>
@@ -30,7 +31,6 @@ const List = ({ state }) => {
         // Render one Item component for each one.
         return <Item key={item.id} item={item} />;
       })}
-      <Pagination />
     </Container>
   );
 };
@@ -38,13 +38,12 @@ const List = ({ state }) => {
 export default connect(List);
 
 const Container = styled.section`
-  display: flex;
+  box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding: 24px;
   list-style: none;
   .article--container {
-    width: 30%;
     margin: 0 20px;
     padding: 20px;
   }

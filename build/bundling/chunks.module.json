@@ -1,9 +1,9 @@
 {
   "errors": [],
   "warnings": [
-    "./node_modules/Frontity/dist/src/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/index.js\n    Used by 7 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/packages/mars-theme/src/components/pages/Home.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/index.js\n    Used by 67 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/@frontity/tiny-router/src/actions.ts\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
+    "./node_modules/Frontity/dist/src/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/index.js\n    Used by 8 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/packages/mars-theme/src/components/pages/Home.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/index.js\n    Used by 65 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/packages/mars-theme/src/components/index.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
     "./node_modules/Frontity/dist/src/utils/decode/client.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/decode/client.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/index.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/decode/client.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/index.js\n @ ./node_modules/Frontity/dist/src/utils/decode/client.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
-    "./node_modules/Frontity/dist/src/utils/decode/containsHTMLEntities.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/decode/containsHTMLEntities.js\n    Used by 2 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/decode/server.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/decode/containsHTMLEntities.js\n    Used by 2 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/decode/client.js\n @ ./node_modules/Frontity/dist/src/utils/decode/containsHTMLEntities.js\n @ ./node_modules/Frontity/dist/src/utils/decode/server.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
+    "./node_modules/Frontity/dist/src/utils/decode/containsHTMLEntities.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/decode/containsHTMLEntities.js\n    Used by 2 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/decode/client.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/decode/containsHTMLEntities.js\n    Used by 2 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/decode/client.js\n @ ./node_modules/Frontity/dist/src/utils/decode/containsHTMLEntities.js\n @ ./node_modules/Frontity/dist/src/utils/decode/client.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
     "./node_modules/Frontity/dist/src/utils/decode/server.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/decode/server.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/index.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/decode/server.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/index.js\n @ ./node_modules/Frontity/dist/src/utils/decode/server.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
     "./node_modules/Frontity/dist/src/utils/slot-and-fill/slot.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/slot-and-fill/slot.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/index.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/slot-and-fill/slot.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/index.js\n @ ./node_modules/Frontity/dist/src/utils/slot-and-fill/slot.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
     "./node_modules/Frontity/dist/src/utils/slot-and-fill/use-fills.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/slot-and-fill/use-fills.js\n    Used by 2 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/index.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/slot-and-fill/use-fills.js\n    Used by 2 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/index.js\n @ ./node_modules/Frontity/dist/src/utils/slot-and-fill/use-fills.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts",
@@ -11,32 +11,53 @@
     "./node_modules/Frontity/node_modules/get-value/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/node_modules/get-value/index.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/Frontity/dist/src/utils/slot-and-fill/use-fills.js\n* /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/node_modules/get-value/index.js\n    Used by 1 module(s), i. e.\n    /Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/babel-loader/lib/index.js??ref--4!/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/node_modules/frontity/dist/src/utils/slot-and-fill/use-fills.js\n @ ./node_modules/Frontity/node_modules/get-value/index.js\n @ ./node_modules/Frontity/dist/src/utils/slot-and-fill/use-fills.js\n @ ./node_modules/Frontity/dist/src/index.js\n @ ./packages/mars-theme/src/components/pages/Home.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/revontuliblog/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/revontuliblog/client.ts"
   ],
   "version": "4.44.2",
-  "hash": "d8c5d4d6872fb2a914e3",
+  "hash": "bbfdf6b09d53727392bb",
   "publicPath": "/static/",
   "outputPath": "/Users/ironmac/Documents/1_Devlopp/RevontuliWeb/revontuli-blog/build/static",
   "assetsByChunkName": {
-    "revontuliblog": "revontuliblog.module.js"
+    "revontuliblog": [
+      "revontuliblog.module.js",
+      "revontuliblog.297f3ee77bedfd9eae0b.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "images/featured_portrait_ramsaxel.jpg",
-      "size": 107137,
+      "name": "297f3ee77bedfd9eae0b.hot-update.json",
+      "size": 55,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/logo-revontuli-2020-agence-digital-blog.svg",
+      "size": 6396,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "images/logo-revontuli-developpement-web-seo-sea-marketing-digitale.svg",
-      "size": 5448,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
+      "name": "revontuliblog.297f3ee77bedfd9eae0b.hot-update.js",
+      "size": 12104,
+      "chunks": [
+        "revontuliblog"
+      ],
+      "chunkNames": [
+        "revontuliblog"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
       "name": "revontuliblog.module.js",
-      "size": 5491709,
+      "size": 5449314,
       "chunks": [
         "revontuliblog"
       ],
@@ -54,7 +75,8 @@
         "revontuliblog"
       ],
       "assets": [
-        "revontuliblog.module.js"
+        "revontuliblog.module.js",
+        "revontuliblog.297f3ee77bedfd9eae0b.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -66,7 +88,8 @@
         "revontuliblog"
       ],
       "assets": [
-        "revontuliblog.module.js"
+        "revontuliblog.module.js",
+        "revontuliblog.297f3ee77bedfd9eae0b.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
